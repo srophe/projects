@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/30">
+        <persName xml:id="name30-1" corresp="#name30-2 #name30-3 #name30-4" xml:lang="en" source="#bib30-1">
+            <roleName type="office" sort="2">The Priest</roleName>
+            <forename sort="1">Samuel</forename>
+        </persName>
+        <persName xml:id="name30-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="##syriaca-headword syriaca-anglicized">
+            <forename sort="1">Samuel, the priest</forename>
+        </persName>
+        <persName xml:id="name30-6" xml:lang="en-x-gedsh" resp="http://syriaca.org">
+            <forename sort="1">Shmuel</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/300">
+        <persName xml:id="name300-1" corresp="#name300-2 #name300-3 #name300-4" xml:lang="en" syriaca-tags="#syriaca-headword" source="#bib300-1">
+            <forename sort="1">George</forename>, <roleName type="office" sort="2">bishop of <placeName ref="http://syriaca.org/place/287">Azekh</placeName>
+            </roleName>
+        </persName>
+        <persName xml:id="name300-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-anglicized">
+            <forename sort="1">George</forename>
+            <addName type="untagged-title" sort="2">of <placeName ref="http://syriaca.org/place/287">Azekh</placeName>
+            </addName>
+        </persName>
+        <persName xml:lang="en" xml:id="name300-8">Cyril George of Azekh</persName>
+        <persName xml:id="name300-6" xml:lang="en-x-gedsh" resp="http://syriaca.org">
+            <forename sort="1">Giwargis</forename>
+            <addName type="untagged-title" sort="2">of <placeName ref="http://syriaca.org/place/287">Azekh</placeName>
+            </addName>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3003">
+        <persName xml:id="name3003-1" xml:lang="en" syriaca-tags="#syriaca-headword" source="#bib3003-1 #bib3003-2">Candida</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3004">
+        <persName xml:id="name3004-1" xml:lang="fr" source="#bib3004-1">Dioscore</persName>
+        <persName xml:id="name3004-2" xml:lang="en" syriaca-tags="#syriaca-headword" source="#bib3004-2">Dioscorus</persName>
+    </p>
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3009">
+        <persName xml:id="name3009-3" xml:lang="en" syriaca-tags="#syriaca-headword">Phocas</persName>
+        <persName xml:id="name3009-2" xml:lang="en-x-gedsh">Pōqā</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/301">
+        <persName xml:id="name301-1" corresp="#name301-2 #name301-3 #name301-4" xml:lang="en" source="#bib301-1">
+            <roleName type="office" sort="2">Metropolitan</roleName>
+            <forename sort="1">Zaytun</forename>
+            <addName type="untagged-title" sort="2">of Anḥil</addName>
+        </persName>
+        <persName xml:lang="en" xml:id="name301-8" syriaca-tags="#syriaca-headword"><forename sort="1">Zaytun</forename>
+            <addName type="untagged-title" sort="2">of Anḥil</addName>
+        </persName>
+        <persName xml:id="name301-6" xml:lang="en-x-gedsh" resp="http://syriaca.org">
+            <forename sort="1">Zaytun</forename>
+            <addName type="untagged-title" sort="2">of Anḥil</addName>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3010">
+        <persName xml:id="name3010-3" xml:lang="en" syriaca-tags="#syriaca-headword">Stephen</persName>
+        <persName xml:id="name3010-2" xml:lang="en-x-gedsh">Esṭapānā</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3011">
+        <persName xml:id="name3011-3" xml:lang="en" syriaca-tags="#syriaca-headword">Zota</persName>
+        <persName xml:id="name3011-2" xml:lang="en-x-gedsh">Zōṭā</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3012">
+        <persName xml:id="name3012-3" xml:lang="en" syriaca-tags="#syriaca-headword">Longinus</persName>
+        <persName xml:id="name3012-2" xml:lang="en-x-gedsh">Lōngīnōs</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3013">
+        <persName xml:id="name3013-3" xml:lang="en" syriaca-tags="#syriaca-headword">Maximus</persName>
+        <persName xml:id="name3013-2" xml:lang="en-x-gedsh">Maksīmōs</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3014">
+        <persName xml:id="name3014-3" xml:lang="en" syriaca-tags="#syriaca-headword">Photius</persName>
+        <persName xml:id="name3014-2" xml:lang="en-x-gedsh">Pōṭīs</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3015">
+        <persName xml:id="name3015-1" xml:lang="en" syriaca-tags="#syriaca-headword">Onesimus</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3016">
+        <persName xml:id="name3016-1" xml:lang="en" syriaca-tags="#syriaca-headword">Arethas</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3017">
+        <persName xml:id="name3017-1" xml:lang="en" syriaca-tags="#syriaca-headword" source="#bib3017-1">Thecla</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3018">
+        <persName xml:id="name3018-2" xml:lang="en" syriaca-tags="#syriaca-headword">Qitmir, dog of the Sleepers of Ephesus</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3019">
+        <persName xml:id="name3019-2" xml:lang="en" syriaca-tags="#syriaca-headword">Habib</persName>
+    </p>
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3020">
+        <persName xml:id="name3020-3" xml:lang="en" syriaca-tags="#syriaca-headword">Sosiana</persName>
+        <persName xml:id="name3020-2" xml:lang="en-x-gedsh">Sūsīyanā</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3021">
+        <persName xml:id="name3021-3" xml:lang="en" syriaca-tags="#syriaca-headword">Mary</persName>
+        <persName xml:id="name3021-2" xml:lang="en-x-gedsh">Mārīyā</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3022">
+        <persName xml:id="name3022-3" xml:lang="en" syriaca-tags="#syriaca-headword">Noah</persName>
+        <persName xml:id="name3022-2" xml:lang="en-x-gedsh">Nūḥ</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/3023">
+        <persName xml:id="name3023-3" xml:lang="en" syriaca-tags="#syriaca-headword">Metrodore</persName>
+        <persName xml:id="name3023-2" xml:lang="en-x-gedsh">Mēṭrōdōrā</persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/303">
+        <persName xml:id="name303-2" corresp="#name303-3 #name303-4 #name303-5" xml:lang="en" source="#bib303-2">
+            <addName type="untagged-title" sort="2">Chorepiscopus</addName>
+            <forename sort="2">Matthew</forename>
+            <addName type="family" sort="1">Konat</addName>
+        </persName>
+        <persName xml:id="name303-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-anglicized #syriaca-headword">
+            <addName type="family" sort="1">Konat</addName>, <forename sort="2">Matthew</forename>
+        </persName>
+        <persName xml:id="name303-1" xml:lang="en-x-gedsh" source="#bib303-1">
+            <addName type="family" sort="1">Konat</addName>, <forename sort="2">Matta</forename>
+        </persName>
+    </p>
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/305">
+        <persName xml:id="name305-2" corresp="#name305-3 #name305-4 #name305-5" xml:lang="en" source="#bib305-2">
+            <roleName type="office" sort="2">The Priest</roleName>
+            <forename sort="2">Ya‛qub </forename>
+            <addName type="family" sort="1">Saka</addName>
+        </persName>
+        <persName xml:id="name305-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-headword #syriaca-anglicized">
+            <addName type="family" sort="1">Saka</addName>, <forename sort="2">Jacob</forename>
+        </persName>
+        <persName xml:lang="en" xml:id="name305-10">Saka, Yaʿqub</persName>
+        <persName xml:id="name305-1" xml:lang="en-x-gedsh" source="#bib305-1">
+            <addName type="family" sort="1">Saka</addName>, <forename sort="2">Yaʿqub</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/306">
+        <persName xml:id="name306-5" xml:lang="en" source="#bib306-4">Mar Aba I</persName>
+        <persName xml:lang="en" xml:id="name306-8">Aba, Catholicos</persName>
+        <persName xml:lang="en" xml:id="name306-9" syriaca-tags="#syriaca-headword">Aba I, catholicos</persName>
+        <persName xml:id="name306-1" xml:lang="en-x-gedsh" source="#bib306-1">
+            <forename sort="1">Aba</forename>
+            <addName type="untagged-title" sort="2">I</addName>
+        </persName>
+        <persName xml:lang="en-x-gedsh" xml:id="name306-7">Abā I, Catholicos </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/307">
+        <persName xml:id="name307-4" xml:lang="en" source="#bib307-4">Mar Aba II</persName>
+        <persName xml:lang="en" xml:id="name307-5" syriaca-tags="#syriaca-headword">Aba II of Kashkar</persName>
+        <persName xml:id="name307-1" xml:lang="en-x-gedsh" source="#bib307-1">
+            <forename sort="1">Aba</forename>
+            <addName type="untagged-title" sort="2">II</addName>
+            <addName type="untagged-title" sort="2">of Kashkar</addName>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/309">
+        <persName xml:id="name309-4" xml:lang="en" source="#bib309-4">Abdisho bar Bahriz</persName>
+        <persName xml:id="name309-5" xml:lang="en" source="#bib309-4">Ibn Bahriz</persName>
+        <persName xml:lang="en" xml:id="name309-8" syriaca-tags="#syriaca-headword">ʿAbdishoʿ bar Bahrīz</persName>
+        <persName xml:id="name309-1" xml:lang="en-x-gedsh" source="#bib309-1">
+            <forename sort="1">ʿAbdishoʿ</forename>
+            <addName type="family" sort="2">bar Bahrīz</addName>
+        </persName>
+    </p> 
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/315">
+        <persName xml:id="name315-0" xml:lang="en">
+            <forename sort="1">Abgar</forename>
+            <addName type="untagged-title" sort="2">the hagiographer</addName>
+        </persName>
+        <persName xml:lang="en" xml:id="name315-3" syriaca-tags="#syriaca-headword">Abgar, the hagiographer</persName>
+        <persName xml:id="name315-1" xml:lang="en-x-gedsh" syriaca-tags="#syriaca-headword" source="#bib315-1">
+            <forename sort="1">Abgar</forename>
+            <addName type="untagged-title" sort="2">the hagiographer</addName>
+        </persName>
+    </p>
+    
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/319">
+        <persName xml:id="name319-4" xml:lang="en" source="#bib319-4">Abraham of Bet Rabban</persName>
+        <persName xml:lang="en" xml:id="name319-5" syriaca-tags="#syriaca-headword">Abraham of Beth Rabban</persName>
+        <persName xml:id="name319-1" xml:lang="en-x-gedsh" source="#bib319-1">
+            <forename sort="1">Abraham</forename>
+            <addName type="untagged-title" sort="2">of Beth Rabban</addName>
+        </persName>
+    </p>
+    
+    
+    
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/323">
+        <persName xml:id="name323-5" xml:lang="en" source="#bib323-5">Ahikar</persName>
+        <persName xml:lang="en" xml:id="name323-6" syriaca-tags="#syriaca-headword">Ahiqar</persName>
+        <persName xml:id="name323-1" corresp="#name323-2 #name323-3 #name323-4" xml:lang="en-x-gedsh" source="#bib323-1 #bib323-2">
+            <forename sort="1">Aḥiqar</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/324">
+        <persName xml:id="name324-6" xml:lang="en" syriaca-tags="#syriaca-headword" source="#bib324-4">Ahob of Qatar</persName>
+        <persName xml:lang="en" xml:id="name324-9">Aḥob of Beth Qatraye</persName>
+        <persName xml:id="name324-1" xml:lang="en-x-gedsh" source="#bib324-1">
+            <forename sort="1">Aḥob</forename>
+            <addName type="untagged-title" sort="2">Qaṭraya</addName>
+        </persName>
+    </p>
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/326">
+        <persName xml:id="name326-8" xml:lang="en" syriaca-tags="#syriaca-headword">
+            <forename sort="1">Aithalaha</forename>
+        </persName>
+        <persName xml:id="name326-3" xml:lang="en" source="#bib326-2 #bib326-5">Aithallah</persName>
+        <persName xml:lang="en" xml:id="name326-9">Aitallaha</persName>
+        <persName xml:id="name326-1" xml:lang="en-x-gedsh" source="#bib326-1">
+            <forename sort="1">Aitalaha</forename>
+        </persName>
+        <persName xml:lang="en-x-gedsh" xml:id="name326-5">Ithʾalāhā</persName>
+    </p>
+    
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/33">
+        <persName xml:id="name33-2" corresp="#name33-3 #name33-4 #name33-5" xml:lang="en" source="#bib33-2">
+            <forename sort="1">Isaac</forename>
+            <addName type="untagged-title" sort="2">of Edessa, known as Isaac of Antioch</addName>
+        </persName>
+        <persName xml:id="name33-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-headword #syriaca-anglicized">
+            <forename sort="1">Isaac</forename>
+            <addName type="untagged-title" sort="2">of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+            </addName>
+        </persName>
+        <persName xml:lang="en" xml:id="name33-10">Isaac of Edessa</persName>
+        <persName xml:id="name33-1" xml:lang="en-x-gedsh" source="#bib33-1">
+            <forename sort="1">Isḥaq</forename>
+            <addName type="untagged-title" sort="2">of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+            </addName>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/332">
+        <persName xml:id="name332-0" xml:lang="en" syriaca-tags="#syriaca-headword">
+            <addName type="family" sort="1">ʿAmira</addName>, 
+            <forename sort="2">Jirjis</forename>
+        </persName>
+        <persName xml:id="name332-1" xml:lang="en-x-gedsh" source="#bib332-1" syriaca-tags="#syriaca-headword">
+            <addName type="family" sort="1">ʿAmīra</addName>, <forename sort="2">Jirjis</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/338">
+        <persName xml:id="name338-5" xml:lang="en" source="#bib338-1">Acacius</persName>
+        <persName xml:id="name338-6" xml:lang="en" source="#bib338-1">Acacius</persName>
+        <persName xml:lang="en" xml:id="name338-7" syriaca-tags="#syriaca-headword">Acacius of Seleucia</persName>
+        <persName xml:id="name338-1" xml:lang="en-x-gedsh" source="#bib338-1 #bib338-10">
+            <forename sort="1">Aqaq</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/34">
+        <persName xml:id="name34-2" corresp="#name34-3 #name34-4 #name34-5" xml:lang="en" source="#bib34-2">
+            <forename sort="1">Isaac</forename>
+            <addName type="untagged-title" sort="2">the Second of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+            </addName>
+        </persName>
+        <persName xml:id="name34-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-anglicized #syriaca-headword">
+            <forename sort="1">Isaac</forename>
+            <addName type="untagged-title" sort="2">of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+            </addName>
+        </persName>
+        <persName xml:lang="en" xml:id="name34-8">Isaac of Edessa</persName>
+        <persName xml:id="name34-1" xml:lang="en-x-gedsh" source="#bib34-1">
+            <forename sort="1">Isḥaq</forename>
+            <addName type="untagged-title" sort="2">of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+            </addName>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/341">
+        <persName xml:id="name341-2" corresp="#name341-3 #name341-4 #name341-5" xml:lang="en" source="#bib341-2 #bib341-10">
+            <forename sort="1">Aristides</forename>
+        </persName>
+        <persName xml:lang="en" xml:id="name341-6" syriaca-tags="#syriaca-headword">Aristides of Athens</persName>
+        <persName xml:id="name341-1" xml:lang="en-x-gedsh" source="#bib341-1">
+            <forename sort="1">Aristides</forename>
+            <addName type="untagged-title" sort="2">of Athens</addName>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/343">
+        <persName xml:id="name343-2" corresp="#name343-3 #name343-4 #name343-5" xml:lang="en" source="#bib343-2">
+            <forename sort="2">Isḥāq</forename>
+            <addName type="family" sort="1">Armala</addName>
+        </persName>
+        <persName xml:id="name343-7" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-anglicized #syriaca-headword">
+            <addName type="family" sort="1">Armalah</addName>, <forename sort="2">Isaac</forename>
+        </persName>
+        <persName xml:id="name343-8" xml:lang="en" source="#bib343-1">Armalet, Isaac</persName>
+        <persName xml:id="name343-1" xml:lang="en-x-gedsh" source="#bib343-1">
+            <addName type="family" sort="1">Armalah</addName>, <forename sort="2">Isḥāq</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/346">
+        <persName xml:id="name346-0" xml:lang="en" syriaca-tags="#syriaca-headword">
+            <addName type="family" sort="1">Asʿad</addName>, 
+            <forename sort="2">Gabriel</forename>
+        </persName>
+        <persName xml:id="name346-1" xml:lang="en-x-gedsh" source="#bib346-1" syriaca-tags="#syriaca-headword">
+            <addName type="family" sort="1">Asʿad</addName>, <forename sort="2">Gabriel</forename>
+        </persName>
+    </p>
+    <p xmlns="http://www.tei-c.org/ns/1.0" ref="http://syriaca.org/person/347">
+        <persName xml:id="name347-3" xml:lang="en" resp="http://syriaca.org" syriaca-tags="#syriaca-headword">
+            <addName type="family" sort="1">Assemani</addName>, <forename sort="2">Elia</forename>
+        </persName>
+        <persName xml:id="name347-1" xml:lang="en-x-gedsh" source="#bib347-1">
+            <addName type="family" sort="1">Assemani</addName>, <forename sort="2">Elia</forename>
+        </persName>
+    </p>
+</body>
+  </text>
+</TEI>
